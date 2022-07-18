@@ -140,25 +140,6 @@ DEF NUM_BGEVENTS EQU const_value
 	const OBJECTTYPE_6
 DEF NUM_OBJECT_TYPES EQU const_value
 
-; command queue members
-DEF CMDQUEUE_TYPE  EQU 0
-DEF CMDQUEUE_ADDR  EQU 1
-DEF CMDQUEUE_02    EQU 2
-DEF CMDQUEUE_03    EQU 3
-DEF CMDQUEUE_04    EQU 4
-DEF CMDQUEUE_05    EQU 5
-DEF CMDQUEUE_ENTRY_SIZE EQU 6
-DEF CMDQUEUE_CAPACITY EQU 4
-
-; HandleQueuedCommand.Jumptable indexes (see engine/overworld/events.asm)
-	const_def
-	const CMDQUEUE_NULL
-	const CMDQUEUE_TYPE1
-	const CMDQUEUE_STONETABLE
-	const CMDQUEUE_TYPE3
-	const CMDQUEUE_TYPE4
-DEF NUM_CMDQUEUE_TYPES EQU const_value
-
 ; elevfloor macro values
 ; ElevatorFloorNames indexes (see data/events/elevator_floors.asm)
 	const_def

@@ -1,5 +1,4 @@
-it's currently 34 degrees celsius outside (and probably higher inside) at the time of writing which for some reason spurred me to start making a crystal rom hack
-for now i'll probably just implement a bunch of the tutorials and bugfixes that the good people who originally worked on this disassembly put together
+it's currently 34 degrees celsius outside (and probably higher inside) at the time of writing which for some reason spurred me to start making a crystal rom hack. for now i'll probably just implement a bunch of the tutorials and bugfixes that the good people who originally worked on this disassembly put together
 
 original readme:
 
