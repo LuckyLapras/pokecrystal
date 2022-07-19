@@ -3,7 +3,10 @@ it's currently 34 degrees celsius outside (and probably higher inside) at the ti
 things for future me to consider:
 - replacing psychic tm in celadon game corner with some tm u find on the floor (move names are in constants/item\_constants.asm)
 - evolution moves
-- automatic weather (inc. hail) and thus weather icons
+- weather shenanigans
+  - automatic weather in more places (i've only got the ones included in the tutorial for now)
+  - weather icons
+  - hail in movesets and also as a tm. in fact all of the movesets and tms need to be reworked.
 - fossils in rocks
 - change pocket pc name i cannot trust ~~me~~ ~~daz~~ emile with it
 - other miscellaneous graphical edits
