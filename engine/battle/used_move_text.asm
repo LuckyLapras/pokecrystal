@@ -62,40 +62,7 @@ UsedMoveInsteadText:
 MoveNameText:
     text_far _MoveNameText
     text_end
-; get start address
-    ld hl, .endusedmovetexts
-
-; get move id
-    ld a, [wMoveGrammar]
-
-; 2-byte pointer
-    add a
-
-; seek
-    push bc
-    ld b, 0
-    ld c, a
-    add hl, bc
-    pop bc
-
-; get pointer to usedmovetext ender
-    ld a, [hli]
-    ld h, [hl]
-    ld l, a
-    ret
-
-.endusedmovetexts
-; entries correspond to MoveGrammar sets
-    dw EndUsedMove1Text
-    dw EndUsedMove2Text
-    dw EndUsedMove3Text
-    dw EndUsedMove4Text
-    dw EndUsedMove5Text
-
-EndUsedMove1Text:
-    text_far _EndUsedMove1Text
-    text_end
-
+    
 UpdateUsedMoves:
 ; append move a to wPlayerUsedMoves unless it has already been used
 

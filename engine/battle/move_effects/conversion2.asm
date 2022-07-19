@@ -10,12 +10,14 @@ BattleCommand_Conversion2:
 .got_type
 	ld a, BATTLE_VARS_LAST_COUNTER_MOVE_OPP
 	call GetBattleVar
+    and TYPE_MASK
 	and a
 	jr z, .failed
 	push hl
 	dec a
 	ld hl, Moves + MOVE_TYPE
 	call GetMoveAttr
+    and TYPE_MASK
 	ld d, a
 	pop hl
 	cp CURSE_TYPE
