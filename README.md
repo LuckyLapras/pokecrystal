@@ -1,5 +1,13 @@
 it's currently 34 degrees celsius outside (and probably higher inside) at the time of writing which for some reason spurred me to start making a crystal rom hack. for now i'll probably just implement a bunch of the tutorials and bugfixes that the good people who originally worked on this disassembly put together
 
+things for future me to consider:
+- replacing psychic tm in celadon game corner with some tm u find on the floor (move names are in constants/item\_constants.asm)
+- evolution moves
+- automatic weather (inc. hail) and thus weather icons
+- fossils in rocks
+- change pocket pc name i cannot trust ~~me~~ ~~daz~~ emile with it
+- other miscellaneous graphical edits
+
 original readme:
 
 This is a disassembly of Pokémon Crystal.
