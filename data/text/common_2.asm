@@ -678,11 +678,11 @@ Text_BattleEffectActivate::
 _BattleStatWentWayUpText::
     text_pause
     text "<SCROLL>went way up!"
-    prompt
+    autodone
 
 _BattleStatWentUpText::
     text " went up!"
-    prompt
+    autodone
 
 Text_BattleFoeEffectActivate::
     text "<TARGET>'s"
@@ -695,11 +695,11 @@ Text_BattleFoeEffectActivate::
 _BattleStatSharplyFellText::
     text_pause
     text "<SCROLL>sharply fell!"
-    prompt
+    autodone
 
 _BattleStatFellText::
     text " fell!"
-    prompt
+    autodone
 
 Text_BattleUser::
     text "<USER>@"

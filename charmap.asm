@@ -16,6 +16,7 @@
 	charmap "<MOM>",     $49 ; wMomsName
 	charmap "<PKMN>",    $4a ; "<PK><MN>"
 	charmap "<_CONT>",   $4b ; implements "<CONT>"
+    ; read the autoprompt tutorial i cba to copy that shit
 	charmap "<SCROLL>",  $4c
 	charmap "<NEXT>",    $4e
 	charmap "<LINE>",    $4f
@@ -35,6 +36,8 @@
 	charmap "<TRAINER>", $5d ; "TRAINER"
 	charmap "<ROCKET>",  $5e ; "ROCKET"
 	charmap "<DEXEND>",  $5f
+    charmap "<ATPRA>" ,  $60
+    charmap "<ATDNE>",   $61
 
 ; Actual characters (from gfx/font/font_extra.png)
 
